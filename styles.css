@@ -1,0 +1,8 @@
+body {
+    background-color: #00ffff;
+    background-image: linear-gradient(to bottom, #ff00ff, #ffff00, #00ffff);
+    background-repeat: no-repeat;
+}
+a {
+    color: black;
+}
