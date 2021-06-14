@@ -1,7 +1,7 @@
 body {
-    background-color: #00ffff;
-    background-image: linear-gradient(to bottom, #ff00ff, #ffff00, #00ffff);
-    background-repeat: no-repeat;
+    background-color: cyan;
+    /*background-image: linear-gradient(to bottom, #ff00ff, #ffff00, #00ffff);
+    background-repeat: no-repeat;*/
     font-family: "Times New Roman";
 }
 
@@ -21,7 +21,7 @@ a {
 button {
     color: white;
     padding: 15px 32px;
-    background-color: darkslategrey;
+    background-color: magenta;
     text-align: center;
     font-size: 16pt;
     border: none;
