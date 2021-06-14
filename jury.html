@@ -3,6 +3,7 @@
     <head>
         <link rel="stylesheet" href="styles.css">
         <link rel="icon" href="logo.png" type="image/x-icon">
+        <script src="jury-game.js"></script>
         <title>
             Aurora Borealis
         </title>
@@ -21,5 +22,17 @@
             <a href="unbdc.html">Back</a><br><br>
             <!-- Put your stuff here -->
         </p>
+        <p>
+            Do you believe this post contains misinformation?
+        </p>
+
+        <p id="post_container" class="jurypost">
+            Some Post Here
+        </p>
+
+        <div id="check_user_opinion">
+            <button onclick="score_post(post, 1)">Yes</button>
+            <button onclick="score_post(post, -1)">No</button>
+        </div>
     </body>
 </html>

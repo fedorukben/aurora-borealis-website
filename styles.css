@@ -11,3 +11,8 @@ a {
 .code {
     font-family: "Courier New", monospace;
 }
+.jurypost {
+    padding: 10px; 
+    border: 2px solid rgb(0, 0, 0); 
+    margin: 5%;
+}
