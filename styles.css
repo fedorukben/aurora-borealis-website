@@ -9,6 +9,11 @@ a {
     color: black;
 }
 
+h1 {
+    font-size: 40pt;
+    font-variant: small-caps;
+}
+
 .code {
     font-family: "Courier New", monospace;
 }
