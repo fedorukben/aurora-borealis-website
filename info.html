@@ -10,13 +10,34 @@
         <h1>
             Team Aurora Borealis
         </h1>
-        <h3>
+        <h2>
             IBM DataJam Against Exploitation 2021
-        </h3>
+        </h2>
+        <p><a href="index.html">Go back to the homepage.</a></p>
+        <h3>Introduction</h3>
+
         <p>
-            <a href="index.html">Go back to the homepage.</a><br>
-		  Hi, this is Harrison Nelson.
-		  <br color="blue">
+            The novel Plebeian Algorithm utilizes sentiment analysis and post popularity as a metric to flag a post as misinformation. This algorithm diverges from that of the status quo, as the Plebeian Algorithm uses a democratic process to detect and remove misinformation. It guarantees a more democraitc way of using social media that is beneficial for restoring the social distrust of medical eperts and encouraging the public's evidence-informed decision making.
         </p>
+        <p>
+            The Plebeian Algorithm creates a criteria that social media websites should take into account when designing their algorithms in order to reduce misinformation. This reduction of misinformation is thought to be achieved by examining the correlation between sentiment and misinformation; it has been found that posts containing misinformation tend to have be of more negative sentiment when compared categorically to other posts covering the same issue. Democratic spaces and recommendations to posts with more positive sentiment are integral concepts in the Plebeian Algorithm, based on the latest evidence that misinformation tends to be more negative.
+        </p>
+        <h3>Definition and Implementation</h3>
+        <p>
+            As described previously, the Plebeian Algorithm is a novel algorithm for identifying and removing misinformation through democratic means. It works in two distinct phases: the Flag Phase, to determine which posts are misinformative; and the Jury Phase, to judge the information to determine if removal is appropriate.
+        </p>
+        <h4>Flag Phase</h4>
+        <p>
+            The Flag Phase is tasked with the determination of possible misinformed posts. In doing so, the algorithm selects posts which have a large number of views, and then performs sentiment analysis on both the original post, as well as a without-replacement simple random sample of comments or replies to the post. If the overall sentiment leans negative, then the post is flagged as being potentially misleading. The posts flagged will then be passed into Jury Phase.
+        </p>
+        <h4>Jury Phase</h4>
+        <p>
+            The Jury Phase is tasked with the trial and removal of truly misinformative posts. These posts are removed from the homepage or newsfeed of the user. During the Jury Phase, flagged posts are sent to a random selection of anonymous users known as jurors. This selection should provide a diverse group, consisting of varying political opinions to give the post a fair trial. The selection of jurors uses a without-replacement simple random sample of a population. The number of jurors selected is exactly 10% of the number of viewers of a post, rounded up. It should be noted however that jurors are not forced to participate or vote. It is assumed that the number of voting jurors will be far less than the total number of jurors. Thus, selecting 10% of the population allows room for the uncertainty of juror engagement. The jurors are then asked to vote either for or against the removal of the post. Once the deliberation has lasted a set duration (or a threshold of response has been met), the results will be counted and the post will remain on the site, or be removed by the algorithm.
+        </p>
+        <h3>Algorithm Flowchart</h3>
+        <p>
+            For reference, a summative flowchart detailing the Plebeian Algorithm as described can be found in the below figure. The areas coloured in magenta constitute the Flag Phase, while the areas coloured in mint green constitute the Jury Phase.
+        </p>
+
     </body>
 </html>
