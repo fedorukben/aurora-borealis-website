@@ -16,3 +16,26 @@ a {
     border: 2px solid rgb(0, 0, 0); 
     margin: 5%;
 }
+
+button {
+    color: white;
+    padding: 15px 32px;
+    background-color: darkslategrey;
+    text-align: center;
+    font-size: 16pt;
+    border: none;
+}
+.yesbtn {
+    background-color: red;
+}
+.nobtn {
+    background-color: #00ff00;
+}
+
+.center {
+    margin: 0;
+    position: absolute;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
