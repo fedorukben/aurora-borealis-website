@@ -3,6 +3,11 @@ body {
     background-image: linear-gradient(to bottom, #ff00ff, #ffff00, #00ffff);
     background-repeat: no-repeat;
 }
+
 a {
     color: black;
+}
+
+.code {
+    font-family: "Courier New", monospace;
 }
