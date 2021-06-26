@@ -8,6 +8,7 @@ body {
 a {
     color: black;
     font-family:'Times New Roman', Times, serif
+    text-align center;
 }
 
 h1 {
@@ -46,3 +47,4 @@ button {
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
 }
+
