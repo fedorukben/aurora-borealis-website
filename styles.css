@@ -1,5 +1,5 @@
 body {
-    background-color: cyan;
+    background-color: whitesmoke;
     /*background-image: linear-gradient(to bottom, #ff00ff, #ffff00, #00ffff);
     background-repeat: no-repeat;*/
     font-family: "Times New Roman";
@@ -8,7 +8,6 @@ body {
 a {
     color: black;
     font-family:'Times New Roman', Times, serif
-    text-align center;
 }
 
 h1 {
@@ -28,9 +27,9 @@ h1 {
 button {
     color: white;
     padding: 15px 32px;
-    background-color: magenta;
+    /* background-color: magenta; */
     text-align: center;
-    font-size: 16pt;
+    font-size: 18pt;
     border: none;
 }
 .yesbtn {
