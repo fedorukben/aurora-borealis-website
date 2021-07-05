@@ -27,9 +27,11 @@ h1 {
     font-family: "Courier New", monospace;
 }
 .jurypost {
-    padding: 10px; 
+    /* padding: 1%;  */
     border: 2px solid rgb(0, 0, 0); 
     margin: 5%;
+    width: 50%;
+    margin-left: 25%;
 }
 
 button {
@@ -42,10 +44,10 @@ button {
 
 }
 .yesbtn {
-    background-color: red;
+    background-color: green;
 }
 .nobtn {
-    background-color: #00ff00;
+    background-color: red;
 }
 
 .center {
