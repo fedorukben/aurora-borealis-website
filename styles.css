@@ -22,17 +22,22 @@ h1 {
     font-variant: small-caps;
 }
 
+.container{padding:30px;}
+/* width: 100%;} */
 
 .code {
     font-family: "Courier New", monospace;
 }
 .jurypost {
-    /* padding: 1%;  */
+    padding: 1%; 
     border: 2px solid rgb(0, 0, 0); 
     margin: 5%;
     width: 50%;
     margin-left: 25%;
     text-align: center;
+    background-color: black;
+    color: white;
+    border-radius: 4px;
 }
 
 button {
